@@ -19,8 +19,6 @@
 		3D853F99204CC2B400C54158 /* RestaurantCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D853F97204CC2B400C54158 /* RestaurantCell.xib */; };
 		3D853F9C204CEB7500C54158 /* RestaurantVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D853F9B204CEB7500C54158 /* RestaurantVC.m */; };
 		3D853FA5204D1B7400C54158 /* ReviewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D853FA4204D1ACE00C54158 /* ReviewCell.xib */; };
-		3DDC93B8204D896800A357B1 /* screenshot1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DDC93B6204D896800A357B1 /* screenshot1.png */; };
-		3DDC93B9204D896800A357B1 /* screenshot2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DDC93B7204D896800A357B1 /* screenshot2.png */; };
 		3DED20B5204D1F5D00832BB0 /* ReviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D853FA3204D1ACE00C54158 /* ReviewCell.m */; };
 		3DED20B7204D25EE00832BB0 /* Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DED20B6204D25EE00832BB0 /* Font.m */; };
 		3DED20BB204D293200832BB0 /* ImageViewerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DED20BA204D293200832BB0 /* ImageViewerVC.m */; };
@@ -77,8 +75,6 @@
 		3D853FA2204D1ACE00C54158 /* ReviewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReviewCell.h; sourceTree = "<group>"; };
 		3D853FA3204D1ACE00C54158 /* ReviewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReviewCell.m; sourceTree = "<group>"; };
 		3D853FA4204D1ACE00C54158 /* ReviewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReviewCell.xib; sourceTree = "<group>"; };
-		3DDC93B6204D896800A357B1 /* screenshot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screenshot1.png; path = ../../screenshot1.png; sourceTree = "<group>"; };
-		3DDC93B7204D896800A357B1 /* screenshot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screenshot2.png; path = ../../screenshot2.png; sourceTree = "<group>"; };
 		3DED20B6204D25EE00832BB0 /* Font.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Font.m; sourceTree = "<group>"; };
 		3DED20B8204D277D00832BB0 /* Font.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Font.h; sourceTree = "<group>"; };
 		3DED20B9204D293200832BB0 /* ImageViewerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageViewerVC.h; sourceTree = "<group>"; };
@@ -148,8 +144,6 @@
 		3D853F59204C98EA00C54158 /* MyYelp */ = {
 			isa = PBXGroup;
 			children = (
-				3DDC93B6204D896800A357B1 /* screenshot1.png */,
-				3DDC93B7204D896800A357B1 /* screenshot2.png */,
 				3D853F5A204C98EA00C54158 /* AppDelegate.h */,
 				3D853F5B204C98EA00C54158 /* AppDelegate.m */,
 				3DED20BF204D50A400832BB0 /* Cells */,
@@ -362,8 +356,6 @@
 				3D853F99204CC2B400C54158 /* RestaurantCell.xib in Resources */,
 				3D853FA5204D1B7400C54158 /* ReviewCell.xib in Resources */,
 				3D853F67204C98EA00C54158 /* LaunchScreen.storyboard in Resources */,
-				3DDC93B9204D896800A357B1 /* screenshot2.png in Resources */,
-				3DDC93B8204D896800A357B1 /* screenshot1.png in Resources */,
 				3D853F64204C98EA00C54158 /* Assets.xcassets in Resources */,
 				3D853F62204C98EA00C54158 /* Main.storyboard in Resources */,
 			);
