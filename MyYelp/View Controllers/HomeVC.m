@@ -47,7 +47,7 @@
     [super viewDidLoad];
     
     sort = YLPSortTypeBestMatched;
-    cellHeight = 195;
+    cellHeight = 230;
     
     //default location is SceneDoc office location
     currentLocation = [[YLPCoordinate alloc] initWithLatitude:43.6159241 longitude:-79.7371815];

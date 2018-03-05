@@ -20,19 +20,19 @@
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ncN-LY-05f">
-                        <rect key="frame" x="10" y="120" width="42" height="20.5"/>
+                        <rect key="frame" x="10" y="155" width="42" height="20.5"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aGo-R1-1XJ">
-                        <rect key="frame" x="0.0" y="0.0" width="454" height="100"/>
+                        <rect key="frame" x="0.0" y="0.0" width="454" height="135"/>
                         <constraints>
-                            <constraint firstAttribute="height" constant="100" id="rFl-db-UDa"/>
+                            <constraint firstAttribute="height" constant="135" id="rFl-db-UDa"/>
                         </constraints>
                     </imageView>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="75G-Hu-NRk" customClass="CosmosView" customModule="Cosmos">
-                        <rect key="frame" x="10" y="155.5" width="120" height="20"/>
+                        <rect key="frame" x="10" y="190.5" width="120" height="20"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="20" id="gND-Al-qmO"/>
@@ -54,13 +54,13 @@
                         </userDefinedRuntimeAttributes>
                     </view>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Xs-Hh-feL">
-                        <rect key="frame" x="150" y="155" width="42" height="20.5"/>
+                        <rect key="frame" x="150" y="190" width="42" height="20.5"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fRz-a6-LCE">
-                        <rect key="frame" x="209" y="155" width="42" height="20.5"/>
+                        <rect key="frame" x="209" y="190" width="42" height="20.5"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>

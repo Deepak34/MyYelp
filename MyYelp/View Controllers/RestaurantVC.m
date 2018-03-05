@@ -192,8 +192,13 @@
 -(void) getReviews{
     [[AppDelegate sharedClient] reviewsForBusinessWithId:self.restaurant.identifier completionHandler:^(YLPBusinessReviews * _Nullable reviews, NSError * _Nullable error) {
         
-        self.reviews = [reviews.reviews subarrayWithRange:NSMakeRange(0, 3)];
-        
+        int endRange = 3;
+        if (reviews.reviews.count < 3){
+            endRange = reviews.reviews.count;
+        }
+        if (reviews.reviews.count > 0){
+            self.reviews = [reviews.reviews subarrayWithRange:NSMakeRange(0, endRange)];
+        }
         
         dispatch_async(dispatch_get_main_queue(), ^{
             [self.reviewsTable reloadData];
